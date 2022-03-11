@@ -1,0 +1,51 @@
+I have done three project 
+1.ONLINE EDURA
+&application -Used in educational community or any college to serve as the modules provider
+providing the platform of education very helpful website in educational community as concern
+
+
+
+&libraries-in front end i basically used the legacy jquery library to compute the table data with 
+ajax functionality
+
+&why you used this tech stack-because i am in learning phase and know the html ,css and javascript
+that make me to use this tech stack and as a begineer if you not know any framework then 
+it is best to go for building the website with html,css and javascript combination.
+
+
+&working-developing the front end of the website and this is group project
+iam responsible for the developing of login,logout ,registration ,feedback modules.
+
+
+
+&unique-every educational website have the several modules of related community and every
+educational website is linked with each other having the change of ui
+so their is no uniquness in my website.
+
+
+
+
+
+2.MONTY HALL Game
+
+
+&application -There are no useful real life examples or analogies that 
+we can use to properly compare the Monty Hall Problem to, which is actually
+why the problem seems so anti-intuitive to us.
+
+
+&libraries-libgdx library for java game development
+
+
+&why you used this tech stack-sir the answer is that we as a team found that most of 
+the game build in c and c++ and even most build in python tech stack so we as i team
+want to build this game in java so i found that their is the library named as libgdx and
+we make that game
+
+
+
+&working-the working of the monty hall game is based on 'bayes theoerm'
+
+
+&unique-the uniqueness is the techstack itself on one in the internet will build
+that game in java
