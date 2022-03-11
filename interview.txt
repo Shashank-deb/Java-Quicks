@@ -1,0 +1,26 @@
+1.how many permutation will be your own name and algorithm for it 
+2.how to reverse a string using algorithm
+3.how to approach fibonnaci 
+4.how to approach palindrome
+5.how to do the pattern
+A
+B C
+D E F
+G H I J
+K L M N O
+6.how to count the occurance of the string
+7.merge sort algorithm
+8.prime numbers sieve 
+9.rat in a maze 
+10.sorting and searching 
+11.dbms concept 
+12.string concept 
+13.array multiple repeat unique with their first occurance
+14.n ki power m me last digit
+15.string har digit ki 3 last kar dena
+16.arthimetic modulo
+17.second highest element without using swapping ,sorting and only done by single traversal
+18.find out the string duplicates in a single word and find out the maximum count also. o/p duplicate /maximum count
+19.find the nth fibonacci series without using recursion
+20.sql queries simple,second is correlated queries and one subqueries moderate level
+
