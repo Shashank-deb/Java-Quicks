@@ -1,0 +1,16 @@
+import java.util.Stack;
+class StackCf 
+{
+	public static void main(String[] args) 
+	{
+		Stack<String> animals=new Stack();
+		animals.push("Lion");
+		animals.push("Dog");
+		animals.push("cat");
+		System.out.println("Animals: "+animals);
+		System.out.println("Animals peek: "+animals.peek());
+		animals.pop();
+		System.out.println(animals);
+		System.out.println(animals.peek());
+	}
+}
