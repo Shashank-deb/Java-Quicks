@@ -7,12 +7,12 @@ public class Insertion
 	//j->reverse of i+1 and having the reverse element
 	//swap the element if condition of a[j]<a[j-1] simply swap 
 	//otherwise come out and break the condition
+	//swapping is less as compare to bubble sorting algorithm
 	public static void main(String[] args) 
 	{
 		int [] arr={45,23,2};
 		sort(arr);
-		System.out.println(Arrays.toString(arr));
-		
+		System.out.println(Arrays.toString(arr));	
 	}
 	static void sort(int [] arr)
 	{

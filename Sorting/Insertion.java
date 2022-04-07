@@ -12,8 +12,7 @@ public class Insertion
 	{
 		int [] arr={45,23,2};
 		sort(arr);
-		System.out.println(Arrays.toString(arr));
-		
+		System.out.println(Arrays.toString(arr));	
 	}
 	static void sort(int [] arr)
 	{
@@ -23,8 +22,7 @@ public class Insertion
 			{
 				if(arr[j]<arr[j-1])
 				{
-					swap(arr,j,j-1);
-					
+					swap(arr,j,j-1);	
 				}
 				else
 				{

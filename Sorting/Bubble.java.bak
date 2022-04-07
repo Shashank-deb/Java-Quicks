@@ -30,11 +30,11 @@ public class Bubble
 					swap=true;
 				}
 			}
-			if(!swap)
-		  {
-		
-			break;
-		  }
+				if(!swap)
+			  {
+			
+				break;
+			  }
 	 }
 		
 	}
