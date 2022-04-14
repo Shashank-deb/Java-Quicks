@@ -1,11 +1,19 @@
 import java.util.Arrays;
 public class Selection 
 {
-	//in this intitution we will find the correct index=element-1
-	//find the maximum elemen and normal swap the maxindex with last
+	//Best for small list 
+	//In this intitution we will find the correct index=element-1
+	//Find the maximum element and normal swap the maxindex with last means swap with the 
+	//Correct index position
 	//last start with n-i-1
-	//getMaxIndex function for finding the max element loop through 
+	//getMaxIndex function for finding the getMaxIndex  
+	//Always swap the index at maxIndex with last this is the whole logic in selection sort algorithm
 	//start to end take max=arr[start]
+	//TIME COMPLEXITY
+	//bc-o(n^2)
+	//wc-o(n^2)
+	//ac-o(n^2)
+	//sc-o(1)
 	public static void main(String[] args) 
 	{
 		int [] arr={56,36,234};

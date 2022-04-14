@@ -8,6 +8,12 @@ public class Insertion
 	//swap the element if condition of a[j]<a[j-1] simply swap 
 	//otherwise come out and break the condition
 	//swapping is less as compare to bubble sorting algorithm
+	//every index is sorted and for the window kind of thing for i=0 i+1=1 element index is sorted
+	//TIME COMPLEXITY
+	//bc-o(n)
+	//wc-o(n^2)
+	//ac-0(n^2)
+	//sc-0(1)
 	public static void main(String[] args) 
 	{
 		int [] arr={45,23,2};
@@ -22,8 +28,7 @@ public class Insertion
 			{
 				if(arr[j]<arr[j-1])
 				{
-					swap(arr,j,j-1);
-					
+					swap(arr,j,j-1);	
 				}
 				else
 				{

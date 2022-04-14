@@ -1,5 +1,7 @@
 public class Merge 
 {
+
+	//This mergesort is used for any type of input wheather it is large or small inputs.
 	//the main logic of the merge sort is 
 	//the merge function 
 	//start the i pointer to start to mid
@@ -7,6 +9,11 @@ public class Merge
 	//check the condition in while loop (i<=mid && j<=end)
 	//perform the logic 
 	//but store the value in the another array at the same size
+	//TIME COMPLEXITY 
+	//bc-o(nlogn)
+	//wc-o(nlogn)
+	//ac-o(nlogn)
+	//sc-o(n)
 	public static void main(String[] args) 
 	{
 		int [] arr={9,8,7,5,2};
@@ -17,6 +24,7 @@ public class Merge
 		mergesort(arr,0,n-1);
 		printArray(arr,n);
 	}
+	//Tc of this mergesort algorithm is o(nlogn)
 	static void mergesort(int [] arr,int start,int end)
 	{
 		int mid;
@@ -28,6 +36,9 @@ public class Merge
 			merge(arr,start,mid,end);
 		}
 	}
+
+
+	//Tc of this merge function is o(m+n)
 	static void merge(int [] a,int start,int mid,int end)
 	{
 		int [] b=new int[5];

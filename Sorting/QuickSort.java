@@ -1,5 +1,6 @@
 public class QuickSort 
 {
+	//This sorting algo is manily used for the large data inputs or array
 	//in this sort the main logic is the partition function
 	//in this function we will have to perform logic
 	//their are two pointer start start with lower_bound
@@ -7,6 +8,14 @@ public class QuickSort
 	//simply pivot element is nothing but the first element in the array
 	//checking the start element always smaller than pivot increment the start pointer
 	//checking the end element always greater than pivot than decrement the end pointer
+	//if start<end then simply swap the element at start with end 
+	//if start>end then simply swap the element at end with start
+	//at the end return the end 
+    //TIME COMPLEXITY
+	//bc-o(nlogn)
+	//ac-o(nlogn)
+	//wc-o(n^2)
+	//sc-average--o(logn) and for worst--o(n)
 	public static void main(String[] args) 
 	{
 		int [] arr={34,523,2,5};

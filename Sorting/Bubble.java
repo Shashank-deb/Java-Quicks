@@ -2,14 +2,22 @@ import java.util.Arrays;
 public class Bubble 
 {
 
+    //used for finding the maximum element which is always present in the last 
+	//of the array at every pass nothing but adjacent sorting algorithm and it 
+	//not recommended to used in real life
 	//logic is that is i start with 0 and end with n
 	//j start with 1 and end with n-i
 	//simple comparison is arr[j]<arr[j-1]
 	//take the boolean swap
 	//then we will simply swap
+	//TIME COMPLEXITY
+	//best case-o(n)
+	//worst case-0(n^2)
+	//average case-o(n^2)
+	//space -0(1)
 	public static void main(String[] args) 
 	{
-		int [] arr={4,532,1,};
+		int [] arr={4,5,1,};
 	    sort(arr);
 		System.out.println(Arrays.toString(arr));
 	}
@@ -36,6 +44,8 @@ public class Bubble
 				break;
 			  }
 	   }
+
+
 		
 	}
 }
