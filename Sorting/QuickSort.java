@@ -1,6 +1,9 @@
 public class QuickSort 
 {
-	//This sorting algo is manily used for the large data inputs or array
+	//This sorting algo is manily used for the cannot work well
+	// when large data inputs are there they work only when  array that fit in the memory than we use quick
+	//sort algorithm
+	//know as inplace sorting algorithm
 	//in this sort the main logic is the partition function
 	//in this function we will have to perform logic
 	//their are two pointer start start with lower_bound

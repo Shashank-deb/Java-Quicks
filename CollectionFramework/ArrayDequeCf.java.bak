@@ -21,8 +21,11 @@ class ArrayDequeCf
 
 	 //poll
 	 System.out.println(adq.poll());
+	  System.out.println(adq);
 	 System.out.println(adq.pollFirst());
+	  System.out.println(adq);
 	 System.out.println(adq.pollLast());
+	  System.out.println(adq);
 	 System.out.println(adq);
 
 

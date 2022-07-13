@@ -12,17 +12,26 @@ class B extends	A
 
 
 
+
 //multiple inheritance(not supported in java)
 //this is nothing but diamond access problem occur in java
+//if we have the meth1() in both class A and B so 
+//their is ambiguity problem which is occur in java
+//class C will not determine which m1() method is called
 class A
 {
+	meth1(){}
 }
 class B
-{
+{ 
+	meth1(){}
 }
 class C extends A,B
 {
 }
+
+
+
 
 //The alternative of inheritance is interface
 interface A
@@ -36,7 +45,7 @@ interface B
 class C implements A,B{
 	
 }
-//we can also inherited the interface
+//we can also inherited the interface(is-a relationship)
 interface C extends B
 {
 }
@@ -60,11 +69,6 @@ class B extends A
 class C extends B
 {
 }
-
-
-
-
-
 
 
 

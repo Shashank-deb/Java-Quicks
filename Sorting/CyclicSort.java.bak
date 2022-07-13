@@ -3,7 +3,7 @@ public class CyclicSort
 {
 	public static void main(String[] args) 
 	{
-		int [] arr={3,5,2,1,1};
+		int [] arr={5,3,4,2,1};
 		sort(arr);
 		System.out.println(Arrays.toString(arr));
 	}

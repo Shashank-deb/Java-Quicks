@@ -1,3 +1,6 @@
+//Data hiding in java is acheived by making the data members as private modifiers
+//This is the Account class where their is the member balance 
+//This is also know as Tightly encapsulated class
 class Account{
 	private double balance;
 	public Account(double balance){

@@ -1,8 +1,10 @@
 import java.util.Arrays;
 public class Insertion 
 {
+	//STABLE SORTING ALGORITHM(maintains the position of two equals element or relative element)
+	//Best for small list 
 	//simlar as bubble sort comparison but only difference is we will 
-	//have to sort in lhs
+	//have to sort in lhs only make the virtual window of the array
 	//i->i-2 start with length
 	//j->reverse of i+1 and having the reverse element
 	//swap the element if condition of a[j]<a[j-1] simply swap 
@@ -33,7 +35,6 @@ public class Insertion
 				else
 				{
 					break;
-
 				}
 			}
 		}

@@ -29,42 +29,42 @@ public class String4
 
 
 
-	//StringBuilder sb3=new StringBuilder();
-   // char ch[]=str.toCharArray();
-	//for(int i=0;i<str.length();i++)
-	//{
-	//	boolean repeated=false;
-	//	for(int j=i+1;j<str.length();j++)
-	//	{
-	//		if(ch[i]==ch[j])
-	//		{
-	//			repeated=true;
-	//			break;
-	//		}
-	//	}
-	//	if(!repeated)
-	//	{
-	//		sb3.append(ch[i]);
-	//	}
+	StringBuilder sb3=new StringBuilder();
+    char ch[]=str.toCharArray();
+	for(int i=0;i<str.length();i++)
+	{
+		boolean repeated=false;
+		for(int j=i+1;j<str.length();j++)
+		{
+			if(ch[i]==ch[j])
+			{
+				repeated=true;
+				break;
+			}
+		}
+		if(!repeated)
+		{
+ 		sb3.append(ch[i]);
+		}
 		
-	//}
-	//System.out.println(sb3);
+	}
+	System.out.println(sb3);
 
 
 
 
 //approach 4
-   StringBuilder sb=new StringBuilder();
-   Set<Character> set=new LinkedHashSet<>();
-   for(int i=0;i<str.length();i++)
-		{
-			set.add(str.charAt(i));
-		}
-		for(Character c:set)
-			{
-				sb.append(c);
-			}
-			System.out.println(sb);
+  // StringBuilder sb=new StringBuilder();
+  //Set<Character> set=new LinkedHashSet<>();
+   //for(int i=0;i<str.length();i++)
+	//	{
+	//		set.add(str.charAt(i));
+	//	}
+	//	for(Character c:set)
+	//		{
+	//			sb.append(c);
+	//		}
+	//		System.out.println(sb);
 
 }
 }

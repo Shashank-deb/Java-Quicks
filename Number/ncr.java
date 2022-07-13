@@ -9,7 +9,6 @@ class ncr
 		return fact(n)/fact(r)*fact(n-r);
 	}
 	static int fact(int n)
-
 	{
 		int fac=1;
 		for(int i=1;i<=n;i++)

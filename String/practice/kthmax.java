@@ -11,11 +11,11 @@ public class kthmax
 		System.out.println("Enter arr: ");
 		for(int i=0;i<n;i++)
 			arr[i]=sc.nextInt();
-		System.out.println("Enter k: ");
-		int k=sc.nextInt();
 		Arrays.sort(arr);
-		System.out.println(k+" :  Highest Element !");
-		System.out.println(arr[k-1]);
+		System.out.println("Enter the value of k: ");
+		int len=arr.length;
+		System.out.println("Highest Element !");
+		System.out.println(arr[len-1]);
 
 	}
 	

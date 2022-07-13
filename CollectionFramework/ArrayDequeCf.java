@@ -13,11 +13,15 @@ class ArrayDequeCf
 	 adq.offer(67);
 	 System.out.println(adq);
 
+
+
      //peek
 	 System.out.println(adq.peek());
 	 System.out.println(adq.peekFirst());
      System.out.println(adq.peekLast());
      System.out.println(adq);
+
+
 
 	 //poll
 	 System.out.println(adq.poll());

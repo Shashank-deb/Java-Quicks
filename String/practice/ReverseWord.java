@@ -1,5 +1,11 @@
 public class ReverseWord 
 {
+
+	//Steps to approach this problem
+	//1.for reversing the words we will used the Character which is the wrapper class
+	//2.and using the simple two pointer approach
+	//3.every step check the character is avaiable or not 
+	//4.return new String(ch)
 	public static void main(String[] args) 
 	{
 		String str="abBH-Ynakl";
@@ -20,7 +26,6 @@ public class ReverseWord
 			swap(arr,start,end);
 			start++;
 			end--;
-
 		}
 		return new String(arr);
 	}

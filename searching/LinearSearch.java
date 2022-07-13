@@ -1,5 +1,7 @@
 public class LinearSearch 
 {
+	//tc-0(n)
+	//sc-0(n)
 	public static void main(String[] args) 
 	{
 		int [] arr={34,52,1,52};

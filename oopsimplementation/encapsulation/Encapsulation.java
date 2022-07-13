@@ -1,13 +1,15 @@
-//Every java class will act as Single Unit and at this Single Unit their as many no 
+//Every java class will act as Single Unit and at this Single Unit their as many number 
 //of data inside in the form of data members
+//This is nothing but encapsulation=abstraction+data hiding know as Encapsulation
 class Student{
+	private String name;
+	private int age;
+	//Generating the Constructor of Student Class
 	public Student(String name,int age){
 		this.name=name;
 		this.age=age;
 	}
-	private String name;
-	private int age;
-
+	//Generating the Getter and Setter of Student Class
 	public String getName(){
 		return name;
 	}

@@ -22,6 +22,9 @@ public class ComparableVsComparator
 
 
 
+
+
+
         //when we have a class which is not 
 		//implementing an interface(Comparable)
 		//when we want to change the sorting

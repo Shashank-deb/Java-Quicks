@@ -15,7 +15,7 @@ public class QuickSort
 	//bc-o(nlogn)
 	//ac-o(nlogn)
 	//wc-o(n^2)
-	//sc-o(logn)
+	//sc-average--o(logn) and for worst--o(n)
 	public static void main(String[] args) 
 	{
 		int [] arr={34,523,2,5};

@@ -2,7 +2,7 @@ import java.util.HashMap;
 import java.util.Map;
 class String7 
 {
-	//first non repeating element in an String
+	//find the first non repeating element in an String
 	//by using hashmap find the number of occurance 
 	//and then after finding the getValue()==1 
 	//so return the value and break the statement
@@ -47,6 +47,7 @@ class String7
 		{
 			if(entrySet.getValue()==1)
 			{
+			
 				System.out.println(entrySet.getValue());
 				break;
 			}

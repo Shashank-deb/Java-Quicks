@@ -1,7 +1,7 @@
 import java.util.Arrays;
 public class Bubble 
 {
-
+    //STABLE SORTING ALGORITHM(maintains the position of two equals element  relative to one another)
     //used for finding the maximum element which is always present in the last 
 	//of the array at every pass nothing but adjacent sorting algorithm and it 
 	//not recommended to used in real life
@@ -11,7 +11,7 @@ public class Bubble
 	//take the boolean swap
 	//then we will simply swap
 	//TIME COMPLEXITY
-	//best case-o(n)
+	//best case-o(n)when array is alreading sorting in ascending order
 	//worst case-0(n^2)
 	//average case-o(n^2)
 	//space -0(1)
@@ -24,28 +24,29 @@ public class Bubble
 	static void sort(int [] arr)
 	{
 		int n=arr.length;
-		boolean swap;
+		boolean isSwap;
 		for(int i=0;i<n;i++)//loop it till n
 		{
-			swap=false;
+			isSwap=false;
 			for(int j=1;j<n-i;j++)//loop it from 1 to n-i
 			{
 				if(arr[j]<arr[j-1])
 				{
-					int temp=arr[j];
-					arr[j]=arr[j-1];
-					arr[j-1]=temp;
-					swap=true;
+					swap(arr,j,j-1);
+					isSwap=true;
 				}
 			}
-				if(!swap)
+				if(!isSwap)
 			  {
 			
 				break;
 			  }
-	   }
-
-
-		
+	   }		
 	}
+
+	static void swap(int [] arr,int start,int end){
+		  int temp=arr[start];
+		  arr[start]=arr[end];
+		  arr[end]=temp;
+		}
 }

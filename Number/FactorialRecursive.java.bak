@@ -1,0 +1,13 @@
+class FactorialRecursive
+{
+	public static void main(String[] args) 
+	{
+		
+	}
+	static int f(int n){
+		if(n<=1)
+			return 1;
+		else
+			return f(n-1)*n;
+	}
+}

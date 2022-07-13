@@ -20,7 +20,10 @@ public class MaximumOccuranceReal
 			}
 		}
 		//System.out.println(map);
-
+        //if we have two character having same occurance
+		//example shashank s=2 and a=2
+		//so the answer of the most occured character will be a 
+		//always scanned in alpabetical order in an lexicographical form
 		for(Map.Entry<Character,Integer> e:map.entrySet())
 		{
 			if(e.getValue()>1)

@@ -4,11 +4,7 @@ public class MaximumOccuranceReal
 {
 	public static void main(String[] args) 
 	{
-		String str="sahil";
-        occurance(str);
-	}
-	static void occurance(String str)
-	{
+		String str="abhishek";
 		Map<Character,Integer> map=new HashMap<>();
 		int n=str.length();
 		for(int i=0;i<n;i++)
@@ -24,7 +20,10 @@ public class MaximumOccuranceReal
 			}
 		}
 		//System.out.println(map);
-
+        //if we have two character having same occurance
+		//example shashank s=2 and a=2
+		//so the answer of the most occured character will be a 
+		//always scanned in alpabetical order
 		for(Map.Entry<Character,Integer> e:map.entrySet())
 		{
 			if(e.getValue()>1)
@@ -35,4 +34,5 @@ public class MaximumOccuranceReal
 			}
 		}
 	}
+	
 }

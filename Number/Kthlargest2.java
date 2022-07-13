@@ -4,7 +4,7 @@ public class Kthlargest2
 	//declaring the fields as static data members
 	private static int k;
     private PriorityQueue<Integer> min_heap;
-    public Kthlargest2(int k, int[] nums) {
+    public Kthlargest2(int k, int[] nums){
         this.k=k;
 		//creation of object of min_heap
         min_heap=new PriorityQueue<>();
@@ -17,7 +17,7 @@ public class Kthlargest2
         }
     }
     
-    public int add(int val) {
+    public int add(int val){
         min_heap.offer(val);
 		//pop the value from heap till the size became nums.length==k
         if(min_heap.size()>k){

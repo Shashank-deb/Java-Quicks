@@ -4,6 +4,7 @@ interface My{
 class Outer{
 	public void display(){
 		My m=new My(){
+			@Override
 			public void show(){
 				System.out.println("Hello this is anonymous class !");
 			}

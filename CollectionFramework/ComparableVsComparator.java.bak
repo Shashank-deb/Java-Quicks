@@ -41,9 +41,5 @@ public class ComparableVsComparator
 		{
 			System.out.println(l);
 		}
-
-
-		
-
 	}
 }

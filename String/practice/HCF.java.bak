@@ -1,5 +1,6 @@
 public class HCF
 {
+	//also know as GCD
 	public static void main(String[] args) 
 	{
 		System.out.println(hcf(12,14));

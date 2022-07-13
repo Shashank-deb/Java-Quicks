@@ -1,6 +1,7 @@
 import java.util.PriorityQueue;
 public class Kthlargest2 
 {
+	//declaring the fields as static data members
 	private static int k;
     private PriorityQueue<Integer> min_heap;
     public Kthlargest2(int k, int[] nums) {

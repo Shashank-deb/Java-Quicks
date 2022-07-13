@@ -14,7 +14,6 @@ class MaximumOccurance
 		{
 			if(arr[i]==x)
 				k++;
-
 		}
 		return k;
 	}
